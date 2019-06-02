@@ -6,6 +6,7 @@
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #fff;
   font-size: 18px;
   line-height: 1.6;
   display: flex;
@@ -26,18 +27,22 @@ body {
   transition: opacity 1s ease-in;
 }
 
-.container h1 {
-  font-size: 32px;
+.main h1 {
+  color: #000;
 }
 
-.container p {
-  font-size: 20px;
-  color: #333;
+.main h1 span {
+  color: #f00;
+}
+
+.main p {
+  /* font-size: 20px; */
+  color: #000;
 }
 
 .btn {
   display: inline-block;
-  background: palevioletred;
+  background: #f00;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -55,7 +60,7 @@ btn:hover {
 
 .loader {
   font-size: 40px;
-  color: palevioletred;
+  color: #f00;
 }
 
 .loader::after {
