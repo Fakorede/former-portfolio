@@ -1,0 +1,36 @@
+{
+  "name": "fakorede-abiola",
+  "version": "1.0.0",
+  "description": "Portfolio website for and by Fakorede Abiola (www.linked.com/in/fakorede)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fakorede/fakorede.github.io.git"
+  },
+  "keywords": [
+    "Fakorede",
+    "Abiola",
+    "fab",
+    "portfolio",
+    "website",
+    "Fullstack",
+    "developer",
+    "PHP",
+    "JavaScript",
+    "node.js"
+  ],
+  "author": "Fakorede Abiola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fakorede/fakorede.github.io/issues"
+  },
+  "homepage": "https://fakorede.github.io",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0"
+  }
+}
