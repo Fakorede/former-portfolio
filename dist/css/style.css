@@ -22,16 +22,13 @@ body {
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in; }
-
-.main h1 {
-  color: #000; }
-
-.main h1 span {
-  color: #f00; }
-
-.main p {
-  /* font-size: 20px; */
-  color: #000; }
+  .main h1 {
+    color: #000; }
+    .main h1 span {
+      color: #f00; }
+  .main p {
+    /* font-size: 20px; */
+    color: #000; }
 
 .btn {
   display: inline-block;

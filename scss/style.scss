@@ -29,19 +29,19 @@ body {
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in;
-}
 
-.main h1 {
-  color: $secondary-color;
-}
+  h1 {
+    color: $secondary-color;
 
-.main h1 span {
-  color: $alternative-color;
-}
+    span {
+      color: $alternative-color;
+    }
+  }
 
-.main p {
-  /* font-size: 20px; */
-  color: $secondary-color;
+  p {
+    /* font-size: 20px; */
+    color: $secondary-color;
+  }
 }
 
 .btn {
