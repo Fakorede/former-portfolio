@@ -15,17 +15,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   min-height: 100vh;
   overflow: hidden;
 }
 
-/* main */
+/* header */
+.header {
+  width: 100%;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in;
+}
 
-.main {
+// main-content
+.main-content {
   margin: auto;
+  align-content: center;
   text-align: center;
-  flex-basis: 75%;
+  width: 90%;
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in;
@@ -40,7 +48,6 @@ body {
   }
 
   p {
-    /* font-size: 20px; */
     color: $secondary-color;
   }
 
@@ -74,7 +81,7 @@ a {
   cursor: pointer;
 }
 
-btn:hover {
+.btn:hover {
   opacity: 0.9;
 }
 
