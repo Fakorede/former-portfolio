@@ -13,7 +13,7 @@ function init() {
       header.style.opacity = 1;
       content.style.opacity = 1;
     }, 50);
-  }, 4000);
+  }, 3000);
 }
 
 init();
