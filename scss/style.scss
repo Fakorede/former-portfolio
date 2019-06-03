@@ -1,6 +1,5 @@
-$primary-color: #fff;
-$secondary-color: #000;
-$alternative-color: #f00;
+@import "config";
+@import "menu";
 
 * {
   margin: 0;
