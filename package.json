@@ -1,7 +1,7 @@
 {
   "name": "fakorede-abiola",
   "version": "1.0.0",
-  "description": "Portfolio website for and by Fakorede Abiola (www.linked.com/in/fakorede)",
+  "description": "Portfolio website for and by Fakorede Abiola (www.linkedin.com/in/fakorede)",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
