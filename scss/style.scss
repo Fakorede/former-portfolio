@@ -28,9 +28,11 @@ body {
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in;
+  overflow: hidden;
 
   h1 {
     color: $secondary-color;
+    margin-top: 20vh;
 
     span {
       color: $alternative-color;
@@ -41,6 +43,23 @@ body {
     /* font-size: 20px; */
     color: $secondary-color;
   }
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.4rem;
+
+      &:hover {
+        color: $alternative-color;
+      }
+    }
+  }
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
 }
 
 .btn {

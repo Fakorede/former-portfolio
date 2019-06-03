@@ -43,14 +43,26 @@ body {
   flex-basis: 75%;
   opacity: 0;
   display: none;
-  transition: opacity 1s ease-in; }
+  transition: opacity 1s ease-in;
+  overflow: hidden; }
   .main h1 {
-    color: #000; }
+    color: #000;
+    margin-top: 20vh; }
     .main h1 span {
       color: #f00; }
   .main p {
     /* font-size: 20px; */
     color: #000; }
+  .main .icons {
+    margin-top: 1rem; }
+    .main .icons a {
+      padding: 0.4rem; }
+      .main .icons a:hover {
+        color: #f00; }
+
+a {
+  color: #000;
+  text-decoration: none; }
 
 .btn {
   display: inline-block;
