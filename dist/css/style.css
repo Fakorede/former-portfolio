@@ -34,7 +34,8 @@ body {
   align-items: center;
   justify-content: center;
   /* flex-direction: column; */
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow: hidden; }
 
 /* main */
 .main {
@@ -43,8 +44,7 @@ body {
   flex-basis: 75%;
   opacity: 0;
   display: none;
-  transition: opacity 1s ease-in;
-  overflow: hidden; }
+  transition: opacity 1s ease-in; }
   .main h1 {
     color: #000;
     margin-top: 10vh; }
