@@ -34,7 +34,7 @@ body {
   margin: auto;
   align-content: center;
   text-align: center;
-  width: 90%;
+  width: 75%;
   opacity: 0;
   display: none;
   transition: opacity 1s ease-in;
@@ -50,6 +50,10 @@ body {
 
   p {
     color: $secondary-color;
+
+    span {
+      text-decoration: underline;
+    }
   }
 
   .icons {
