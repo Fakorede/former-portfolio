@@ -8,4 +8,8 @@
 
 AND
 
-:heart: :coffee: :headphones: In :nigeria:
+:heart: :coffee: :headphones:
+
+In :nigeria:
+
+with sight on :de:
