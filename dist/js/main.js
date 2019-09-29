@@ -1,9 +1,10 @@
 var typed = new Typed(".type", {
   strings: [
-    "JavaScript Developer",
-    "Fullstack Developer",
     "Backend Developer",
-    "PHP Developer"
+    "PHP Developer",
+    "Laravel Developer",
+    "JavaScript Developer",
+    "Node.js Developer"
   ],
   typeSpeed: 60,
   backSpeed: 60,
