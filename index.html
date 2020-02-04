@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!--Header-->
     <header>
       <div class="logo">
         <img src="image/fab.png" alt="logo" />
@@ -28,14 +29,71 @@
       </button>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
           <li class="nav__item">
-            <a href="#" class="nav__link">My Services</a>
+            <a href="#services" class="nav__link">My Services</a>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <!-- Intro Section -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Fakorede Abiola</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Fullstack dev</p>
+      <img src="img/fab-01.jpg" alt="a picture of Fakorede Abiola" />
+    </section>
+
+    <!-- My Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>SPA + API Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            commodi recusandae deserunt adipisci rerum impedit ab numquam
+            doloremque delectus est, quae possimus totam alias ratione
+            laudantium odio id iure vitae!
+          </p>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <h3>Backend Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            consequuntur ipsa minima soluta, voluptate ullam omnis reiciendis
+            non quod corrupti, sapiente assumenda voluptatem. Atque, quia?
+            Deserunt exercitationem asperiores quae impedit.
+          </p>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <h3>Mobile App Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni sint
+            inventore consequatur autem amet. Necessitatibus nemo consequuntur
+            atque, mollitia provident corrupti debitis. Corporis rem blanditiis
+            incidunt praesentium repudiandae, provident odit?
+          </p>
+        </div>
+        <!-- service -->
+      </div>
+      <!-- services -->
+
+      <a href="#work" class="btn">
+        My Work
+      </a>
+    </section>
+
+    <!-- About me -->
   </body>
 </html>
